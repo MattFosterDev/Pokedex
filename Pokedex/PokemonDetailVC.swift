@@ -69,6 +69,7 @@ class PokemonDetailVC: UIViewController {
         let newType = UITextView()
         newType.isUserInteractionEnabled = false
         newType.text = type.rawValue
+        newType.textColor = UIColor.white
         newType.textAlignment = NSTextAlignment.center
         newType.backgroundColor = getPokemonTypeColour(type: type)
         newType.layer.cornerRadius = 5.0
